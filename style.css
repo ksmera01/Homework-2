@@ -6,10 +6,15 @@
 body{
     background: darkgrey;
     background: linear-gradient(to bottom right, #bfbfbf, #9fbfdf);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #footer{
     background-color: rgb(122, 118, 118);
+    text-align: center;
+    margin-top: auto;
 }
 
 .pageheader{
