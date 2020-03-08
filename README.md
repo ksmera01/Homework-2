@@ -1,27 +1,20 @@
 # Homework-2
 Mediums Used:
-1) Bootstrap
-2) Google Fonts
-3) Own CSS
+1) HTML
+2) Bootstrap
+3) Google Fonts
+4) Own CSS
+5) Jpeg and PNG image files
 
 Boostrap Elements: 
 1) Nav Bar
-2) Card/Body
+2) Cards/ Card Group
 3) Layouts
 4) Forms
 5) Buttons
-4) Sticky Footer
 
 Google Fonts:
-1) Anton
-2) Bungee Inline
-3) Galada
-4) Khula
-5) Lemon
-6) Luckiest+Guy
-7) Oswald
-8) Permanent+Marker
-9) Trade+Winds
-10) Vollkorn
-11) Vollkorn+SC
-12) Zilla+Slab
+1) Permanent+Marker
+2) Vollkorn+SC 
+
+Summary: This was a fun project that required alot of concentration and pushes. Within my page, I added a Navbar that collapses in a responsive design. I added my own style on some elements and image files for a more appeasing look. I added a card array that made the welcome page inviting. Google fonts were added to headers of the main pages and took some time to write some personal info about myself. Hope you enjoy!
