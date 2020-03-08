@@ -12,6 +12,7 @@ Boostrap Elements:
 3) Layouts
 4) Forms
 5) Buttons
+6) Sticky Footer
 
 Google Fonts:
 1) Permanent+Marker
