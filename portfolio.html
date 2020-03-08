@@ -21,39 +21,71 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <a class="navbar-brand" href="index.html">Kevin Smeraglio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+        <a class="navbar-brand" href="index.html">Kevin Smeraglio</a>
+        <div class="nav item ml-auto mr-1">
+            <div class="flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
-    <h1>Portfolio</h1>
 
+
+    <section class="container">
+        <h1 class="pageheader">Portfolio</h1>
+        <div class="row align-items-start">
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+            <div class="col">
+                <img class="img thumbnail center-block" src="folder.png" alt="Project 1" width="50%">
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer id="footer" class="navbar navbar-default navbar-fixed-bottom">
+    <footer id="footer" class="navbar navbar-success bg-dark navbar-fixed-bottom">
         <div class="container">
-            <p class="navbar-text pull-left">&copy; 2020 - K. Smeraglio Inc.
-            </p>
-
-            <a href="index.html" class="navbar-btn btn-warning btn pull-right">
+            <h5 class="navbar-text center copyright">&copy; 2020 - K. Smeraglio Inc.
+            </h5>
+            <a href="index.html" class="navbar-btn btn-warning btn pull-end">
                 <span class="glyphicon glyphicon-star"></span> Home Page</a>
         </div>
     </footer>

@@ -11,3 +11,12 @@ body{
 #footer{
     background-color: rgb(122, 118, 118);
 }
+
+.pageheader{
+    font-family: 'Permanent Marker', sans-serif;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+}

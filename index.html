@@ -21,59 +21,53 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
         <a class="navbar-brand" href="index.html">Kevin Smeraglio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <div class="nav item ml-auto mr-1">
+            <div class="flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
+
     <!-- About Me Content -->
-    <!-- Container -->
-    <section class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Card -->
-                <div class="card">
-                    <div class="card-body">
-                        <h1>About Me</h1>
-                    </div>
-                </div>
-            </div>
+
+
+    <!-- Container and Card -->
+    <h1 class="pageheader">About Me</h1>
+    <section class="card" style="width: 18rem;">
+        <img src="headshot.jpg" class="card-img-top" alt="Headshot">
+        <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text wrap">Hey Everybody! Let me take a second to introduce myself. My name is Kevin
+                Smeraglio and I am an aspiring software developer. I was born and raised in the Philadelphia area and
+                currently reside in Conshohocken with my beautiful wife, Brittany. I enjoy playing and watching sports,
+                hanging with family and friends, and traveling to new places. I have created this page to display my
+                work. Please navigate around, drop me a contact request or email me below.
+            </p>
+            <a href="mailto:ksmera01@gmail.com" class="btn btn-warning">Email Me</a>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
-                <!-- Headshot -->
-                <img class="img img-thumbnail" src="headshot.jpg">
-            </div>
-            <div class="col-lg-9">
-                <p>Welcome to my page! My name is Kevin Smeraglio. I was born and raised in Newtown, PA but currently
-                    reside in Conshohocken with my beautiful wife, Brittany. </p>
-            </div>
+
     </section>
 
-    <!-- Footer -->
-    <footer id="footer" class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-            <p class="navbar-text pull-left">&copy; 2020 - K. Smeraglio Inc.
-            </p>
+    <br>
 
-            <a href="index.html" class="navbar-btn btn-warning btn pull-right">
+    <!-- Footer -->
+    <footer id="footer" class="navbar navbar-success bg-dark navbar-fixed-bottom">
+        <div class="container">
+            <h5 class="navbar-text center copyright">&copy; 2020 - K. Smeraglio Inc.
+            </h5>
+            <a href="index.html" class="navbar-btn btn-warning btn pull-end">
                 <span class="glyphicon glyphicon-star"></span> Home Page</a>
         </div>
     </footer>

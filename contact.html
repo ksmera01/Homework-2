@@ -22,59 +22,54 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
         <a class="navbar-brand" href="index.html">Kevin Smeraglio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+        <div class="nav item ml-auto mr-1">
+            <div class="flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
     <!-- Contact Section -->
     <section class="container">
-        <h1>Contact</h1>
+        <h1 class="pageheader">Contact Me</h1>
         <form>
             <div class="form-group">
-                <label for="exampleInputPassword1">Name</label>
+                <label for="Name">Name</label>
                 <input type="name" class="form-control" id="name">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email Address</label>
+                <label for="Email">Email Address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
+                <label for="Message">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-warning">Submit</button>
         </form>
     </section>
 
     <br>
 
     <!-- Footer -->
-    <footer id="footer" class="navbar navbar-default navbar-fixed-bottom">
+    <footer id="footer" class="navbar navbar-success bg-dark navbar-fixed-bottom">
         <div class="container">
-            <p class="navbar-text pull-left">&copy; 2020 - K. Smeraglio Inc.
-            </p>
-
-            <a href="index.html" class="navbar-btn btn-warning btn pull-right">
+            <h5 class="navbar-text center copyright">&copy; 2020 - K. Smeraglio Inc.
+            </h5>
+            <a href="index.html" class="navbar-btn btn-warning btn pull-end">
                 <span class="glyphicon glyphicon-star"></span> Home Page</a>
         </div>
     </footer>
