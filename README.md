@@ -1,4 +1,4 @@
-# Homework-2
+# My-Portfolio
 Mediums Used:
 1) HTML
 2) Bootstrap
@@ -19,3 +19,5 @@ Google Fonts:
 2) Vollkorn+SC 
 
 Summary: This was a fun project that required alot of concentration and pushes. Within my page, I added a Navbar that collapses in a responsive design. I added my own style on some elements and image files for a more appeasing look. I added a card array that made the welcome page inviting. Google fonts were added to headers of the main pages and took some time to write some personal info about myself. Hope you enjoy!
+
+Link: https://ksmera01.github.io/My-Portfolio/
