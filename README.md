@@ -1,23 +1,25 @@
 # My-Portfolio
-Mediums Used:
-1) HTML
-2) Bootstrap
-3) Google Fonts
-4) Own CSS
-5) Jpeg and PNG image files
+1) Goals and Methods
+- Using HTML, CSS, Bootstrap and Javascript, I have created a profile that my future employers can use to get a better look at my work! In this responsive profile, there is main information page, portfolio page and a contact me section. I hope employers can use this to get in contact with me and to ask me any questions that they have about my work on display. Enjoy!
 
-Boostrap Elements: 
-1) Nav Bar
-2) Cards/ Card Group
-3) Layouts
-4) Forms
-5) Buttons
-6) Sticky Footer
+2) Technologies
+- HTML
+- Bootstrap
+- Google Fonts
+- CSS
+- FontAwesome
+- JavaScript
 
-Google Fonts:
-1) Permanent+Marker
-2) Vollkorn+SC 
-
-Summary: This was a fun project that required alot of concentration and pushes. Within my page, I added a Navbar that collapses in a responsive design. I added my own style on some elements and image files for a more appeasing look. I added a card array that made the welcome page inviting. Google fonts were added to headers of the main pages and took some time to write some personal info about myself. Hope you enjoy!
+3) Installation: 
+- None necessary. Please view the link below:
 
 Link: https://ksmera01.github.io/My-Portfolio/
+
+Please view the screenshots below of the deployed application: 
+![Image description](./images/main.png)
+
+![Image description](./images/portfolio.png)
+
+![Image description](./images/contactmeSS.png)
+
+![Image description](./images/footer.png)
