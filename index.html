@@ -13,14 +13,18 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <!-- Google Fonts CSS -->
     <link
-        href="https://fonts.googleapis.com/css?family=Anton|Bungee+Inline|Galada|Khula|Lemon|Luckiest+Guy|Oswald|Permanent+Marker|Trade+Winds|Vollkorn|Vollkorn+SC|Zilla+Slab&display=swap"
+        href="https://fonts.googleapis.com/css?family=Anton|Barlow+Condensed|Bungee+Shade|Caladea|Galada|Khula|Lemon|Luckiest+Guy|Nanum+Myeongjo|Oswald|Permanent+Marker|Trade+Winds|Vollkorn|Vollkorn+SC|Zilla+Slab&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
     <title>Kevin Smeraglio</title>
 </head>
 
-<body>
+<body class="indexBody">
     <!-- Nav Bar -->
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
         <a class="navbar-brand" href="index.html">Kevin Smeraglio</a>
         <div class="nav item ml-auto mr-1"></div>
@@ -45,46 +49,74 @@
 
     <!-- About Me Content -->
 
-    <header class="pageheader">
-        <h1>About Me</h1>
-    </header>
+    <section class="jumbotron">
+        <h1 class="display-4">Hello, I'm a Web Developer.</h1>
+        <p class="lead">My name is Kevin and I would love to create with you.</p>
+        <p>Please click the button below to get to know me a little better.</p>
+        <p class="lead">
+            <a class="btn btn-dark btn-lg" href="./assets/Kevin Smeraglio Resume-converted.pdf" target="_blank"
+                role="button">Hire Me</a>
+        </p>
+    </section>
 
-    <!-- Container and Card Group-->
-    <section class="card-group">
-        <div class="card">
-            <img class="card-img-top" src="./images/elements.jpg" alt="Code">
-            <div class="card-body">
-                <h5 class="card-title">Expertise</h5>
-                <p class="card-text">There are many things I have learned so far in this class. They include Git, HTML,
-                    CSS and Bootstrap. Expertise is strong but I couldnt think of another title. I hope to be an expert
-                    in all of these one day. We just jumped into JavaScript and I have a lot to learn.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <br>
+    <section class="container">
+        <div class="card-deck body">
+            <div class="card">
+                <img class="card-img-top" src="./images/helpyou.png" alt="HelpYou">
+                <div class="card-body horizon cardFont">
+                    <h5 class="card-title cardFont">How Can I Help You?</h5>
+                    <br>
+                    <p class="card-text">I am an avid learner. I continue to try to expand my knowledge everyday.
+                        Currently, my skillset includes but is not limited to the following:</p>
+                    <br>
+                    <ul>
+                        <li> HTML5</li>
+                        <br>
+                        <li>CSS3</li>
+                        <br>
+                        <li> Javascript</li>
+                        <br>
+                        <li> jQuery</li>
+                        <br>
+                        <li>node.js</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="./images/headshot.jpg" alt="headshot">
-            <div class="card-body">
-                <h5 class="card-title">About Me</h5>
-                <p class="card-text">Hey Everybody! Let me take a second to introduce myself. My name is Kevin
-                    Smeraglio and I am an aspiring software developer. I was born and raised in the Philadelphia area
-                    and
-                    currently reside in Conshohocken with my beautiful wife, Brittany. I enjoy playing and watching
-                    sports,
-                    hanging with family and friends, and traveling to new places. I have created this page to display my
-                    work. Please navigate around, drop me a contact request or email me below.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="card">
+                <img class="card-img-top" src="./images/headshot.jpg" alt="headshot">
+                <div class="card-body">
+                    <h5 class="card-title cardFont">About Me</h5>
+                    <p class="card-text cardFont">Hey Everybody! Let me take a second to introduce myself. My name is
+                        Kevin
+                        Smeraglio and I am an aspiring software developer. I was born and raised in the Philadelphia
+                        area
+                        and
+                        currently reside in Conshohocken with my beautiful wife, Brittany. I enjoy playing and
+                        watching
+                        sports,
+                        and hanging with family and friends. I have created this page to
+                        display my
+                        work. Please navigate around, drop me a contact request or email me below.</p>
+                    <a class="btn btn-dark" href="mailto:ksmera01@gmail.com">Email Me</a>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="./images/philly.jpg" alt="Hobbies">
-            <div class="card-body">
-                <h5 class="card-title">Hobbies</h5>
-                <p class="card-text">In my free time, I like to play sports, hang out with friends and family and enjoy
-                    life. Hobbies are for after this class when I have free time again. I am excited and scared to see
-                    what will come next.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="card">
+                <img class="card-img-top" src="./images/contactme3.png" alt="Contact Me">
+                <div class="card-body horizon">
+                    <h5 class="card-title cardFont">Contact Me</h5>
+                    <br>
+                    <p class="card-text cardFont">Along with email, there are a few other ways to get in touch with me.
+                        I am available on GitHub and LinkedIn as well. Please click the links below to view my profiles:
+                    </p>
+                    <a href="https://www.linkedin.com/in/kevin-smeraglio-b203391a/" target="_blank"
+                        class="btn btn-dark"><i class="fab fa-linkedin"></i>
+
+                        LinkedIn</a>
+                    <br>
+                    <a href="https://github.com/ksmera01" target="_blank" class="btn btn-dark">GitHub</a>
+                </div>
             </div>
-        </div>
     </section>
 
     <br>
