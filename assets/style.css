@@ -98,6 +98,23 @@ body{
     text-align: center;
 }
 
+.burgerImgSize{
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.oclockImgSize{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.breakingBreadImgSize{
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
 
 
 
