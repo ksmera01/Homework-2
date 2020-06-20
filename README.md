@@ -20,6 +20,6 @@ Please view the screenshots below of the deployed application:
 
 ![Image description](./images/newportfolio.png)
 
-![Image description](./images/contactmeSS.png)
+![Image description](./images/contactmeNew.png)
 
 ![Image description](./images/footer.png)
