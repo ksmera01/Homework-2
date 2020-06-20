@@ -16,9 +16,9 @@
 Link: https://ksmera01.github.io/My-Portfolio/
 
 Please view the screenshots below of the deployed application: 
-![Image description](./images/main.png)
+![Image description](./images/newmain.png)
 
-![Image description](./images/portfolio.png)
+![Image description](./images/newportfolio.png)
 
 ![Image description](./images/contactmeSS.png)
 
